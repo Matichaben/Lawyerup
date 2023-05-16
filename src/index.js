@@ -1,13 +1,29 @@
+import 'bootstrap/dist/css/bootstrap.css';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import './css/index.css';
+import App from './js/App';
+import Home from './js/home';
+import reportWebVitals from './js/reportWebVitals';
 
+class SubApp extends React.Component {
+  render() {
+    return (
+      <div className="subApp">
+        {/* <MantineProvider withGlobalStyles withNormalizeCSS> */}
+          <div>
+            <div><App/></div>
+            <div><Home/></div>
+          </div>
+        {/* </MantineProvider> */}
+      </div>
+    );
+  }
+}
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <SubApp/>
   </React.StrictMode>
 );
 
