@@ -1,24 +1,82 @@
+.home{
+    overflow-x: hidden;
+}
 #myVideo {
     height: 50vh;
     width: 100vw;
     object-fit: cover;
-    position: fixed;
+    position: absolute;
     left: 0;
     right: 0;
-    top: 0;
-    
+    z-index: -2;
 }
 
 .title{
     position: relative;
     color: #e48d0a;;
-    max-height: 50vh;
+    height: 50.1vh;
     background: linear-gradient(to top, rgb(0, 0, 0, 0.45), rgb(0, 0, 0, 0.45)), linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent);
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
 }
 
 .heading{
-    padding-top: 20%;
-    padding-left: 30%;
+    padding-top: 165px;
+    text-align: center;
+}
+
+.video{
+    height: 50vh;
+}
+
+.row{
+    overflow-x: hidden;
+}
+
+.vision{
+    padding-top:30px;
+    padding-left: 25px;
+    padding-bottom: 30px;
+    background-color: #23395d;
+}
+
+.vision h2{
+    color: #e48d0a;
+}
+
+.vision p{
+    color: whitesmoke;
+    padding-left: 40px;
+}
+
+.services{
+    padding-top:30px;
+    padding-left: 25px;
+    padding-bottom: 30px;
+    background-color: #23395d;
+}
+
+.services h2{
+    color: #e48d0a;
+}
+
+.services p{
+    color: whitesmoke;
+    padding-left: 40px;
+}
+
+.mission{
+    padding-top:30px;
+    padding-left: 25px;
+    padding-bottom: 30px;
+    background-color: white;
+    z-index: -1;
+}
+
+.mission h2{
+    color: #23395d;
+}
+
+.mission p{
+    padding-left: 40px;
 }

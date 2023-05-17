@@ -3,7 +3,7 @@ import '../css/navbar.css';
 
 function Navgbar() {
   return (
-    <Navbar className="navb" expand="lg" fixed="top">
+    <Navbar className="navb" expand="lg">
       <Container>
         <Navbar.Brand className='brand' href="#home">LawFirm</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

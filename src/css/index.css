@@ -12,11 +12,6 @@ code {
     monospace;
 }
 
-.title{
-  position: absolute;
-  color: whitesmoke;
-  height: 50vh;
-  background: linear-gradient(to top, rgb(0, 0, 0, 0.45), rgb(0, 0, 0, 0.45)), linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent);
-  -webkit-backdrop-filter: blur(5px);
-  backdrop-filter: blur(5px);
+.subApp{
+  overflow-x: hidden;
 }
