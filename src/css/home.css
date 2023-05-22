@@ -3,7 +3,7 @@
 }
 #myVideo {
     height: 50vh;
-    width: 100vw;
+    width: 100%;
     object-fit: cover;
     position: absolute;
     left: 0;
@@ -18,6 +18,12 @@
     background: linear-gradient(to top, rgb(0, 0, 0, 0.45), rgb(0, 0, 0, 0.45)), linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent);
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
+}
+
+.title2{
+    position: relative;
+    color: #e48d0a;;
+    height: 50.1vh;
 }
 
 .heading{
